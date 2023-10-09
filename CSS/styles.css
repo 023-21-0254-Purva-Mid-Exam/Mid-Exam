@@ -1,0 +1,55 @@
+body{
+    background-image: url("../Assets/images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.navbar{
+    background-color: rgba(255, 255, 255, 0.593);
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}
+.left-column h2{
+    text-align: center;
+    margin-top: 50px; /* Adjust the margin as needed */
+}
+.left-column {
+    font-size: 25px; /* Adjust the font size as needed */   
+}
+.right-column{
+    align-items: center;
+    margin-top: 70px;
+}
+.location-image {
+    width: 100%;
+    height: auto;
+}
+
+/* Custom styles for the address text */
+.location-address {
+    padding: 20px;
+    background-color: #f8f9fa; /* Light gray background color */
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
